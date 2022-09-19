@@ -25,7 +25,7 @@ public class Composicao {
  /*    Carro carro3 = new Carro();
        carro3.ligarCarro(2000);
  */
-   
+    //terceira forma de chamar
        Carro carro4 = new Carro(0);
        Motor motor = new Motor();
        Motor motor2 = new Motor(2000);
