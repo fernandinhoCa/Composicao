@@ -12,7 +12,22 @@ package composicao;
 public class Carro {
     private Motor motor;
     private Direcao direcao;
+    
+    public Carro(){
+        motor = new Motor();
+    }
+    public Carro(int potencia){
+        motor = new Motor(potencia);
+    }
+    public void ImprimeDados(){
+        System.out.println("Potência do motor: "+motor.getPotencia());
+    }
+    public void ligarCarro(int potencia){
+        motor = new Motor(potencia);
+    }
+    
 
+    
     public Motor getMotor() {
         return motor;
     }
